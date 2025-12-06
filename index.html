@@ -34,11 +34,15 @@
         color: hsl(0, 45%, 44%);
         text-decoration: none;
       }
+      .attribution p {
+        margin: 0;
+        color: var(--slate-900);
+      }
     </style>
   </head>
   <body>
-    <div class="card">
-      <div class="cont">
+    <div class="card" role="main">
+      <div class="cont" role="article">
         <img src="./images/image-qr-code.png" alt="QR Code" />
 
         <h1>Improve your front-end skills by building projects</h1>
@@ -49,7 +53,7 @@
         </p>
       </div>
     </div>
-    <div class="attribution">
+    <div class="attribution" role="contentinfo">
       <p>
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
