@@ -22,18 +22,18 @@ img {
     border-radius: 0.5rem;
 }
 h1 {
-    font-size: min(1.4rem, 4vw);
+    font-size: min(1.4rem);
     font-weight: var(--font-weight-bold);
     margin: 1rem 0 1rem 0;
-    color: var(--slate-900);
-}
-p {
-    margin: 0 0 1.5rem 0;
-    font-weight: var(--font-weight);
-    color: var(--slate-500);
 }
 h1, p {
     text-align: center;
+    color: var(--slate-900);
+}
+p {
+    margin: 0 0.825rem 1.5rem 0.825rem;
+    font-weight: var(--font-weight);
+    color: var(--slate-500);
 }
 .card {
     height: 100vh;
@@ -44,9 +44,9 @@ h1, p {
 .cont {
     background-color: var(--white);
     border-radius: 1rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 1rem;
-    max-width: 21rem;
+    max-width: 20.5rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
